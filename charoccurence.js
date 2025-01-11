@@ -10,6 +10,9 @@ function countCharacterOccurrences(str) {
 
 const result = countCharacterOccurrences('hello world');
 console.log(result);
+<<<<<<< HEAD
 console.log(result);
 
 
+=======
+>>>>>>> 027b6b8563d7b981cf8bff27e6d2cf2807b608cf
