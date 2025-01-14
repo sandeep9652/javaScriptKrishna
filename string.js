@@ -1,39 +1,18 @@
-let a = new Array("krishna", "sandeep", "prashanth");
-let b = ["a", "b"];
-console.log("name :\n" + b[0]);
-console.log(a[0]);
-// ============================================================================================================================
-                                        isPalindrome
-// ============================================================================================================================
-
-
-
-function isPalindrome(str) {
-    const cleanedStr = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
-
-    const reversedStr = cleanedStr.split('').reverse().join('');
-
-    return cleanedStr === reversedStr;
-}
-console.log(isPalindrome('A man, a plan, a canal, panama')); // true
-console.log(isPalindrome('racecar')); // true
-console.log(isPalindrome('abcdcba')); // false
-// ============================================================================================================================
-                                        areAnagrams
-// ============================================================================================================================
-
-
-function areAnagrams(str1, str2) {
-    const cleanString = (str) => {
-        return str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
-    };
-
-    return cleanString(str1) === cleanString(str2);
+let a=10 , b= 210 , c= 23
+if(a>b)
+{
+    console.log("a is big");
 }
 
-console.log(areAnagrams('listen', 'silent')); // true
-console.log(areAnagrams('hello', 'world'));   // false
-console.log(areAnagrams('rail safety', 'fairy tales')); // true
+else if (c>b){
+        console.log("c is big"); 
+    }
+else {
+    console.log ("b is big");
+}
 
-// ============================================================================================================================
-
+switch(a)
+{
+    case 10: console.log("value is 10");
+    case 20: 
+}
